@@ -1,0 +1,136 @@
+* {
+    font-family: 'Arial';
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.login {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px 40px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.login img {
+    margin-bottom: 35px;
+}
+
+.login input {
+    font-size: 12px;
+    width: 250px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 3px;
+    background-color: rgba(214, 214, 214, 0.101);
+    padding: 10px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.login input::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+.login button {
+    width: 270px;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(101, 180, 250);
+    border: 1px solid rgb(101, 180, 250);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    width: 270px;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(41, 149, 244);
+    border: 1px solid rgb(33, 151, 253);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.atau {
+    margin-top: 20px;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+}
+
+.atau hr {
+    border: 1 solid rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
+}
+
+.login .facebook {
+    font-size: 14px;
+    color: #1877F2;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login .lupa {
+    font-size: 12px;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.register {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px 40px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1877F2;
+}
+
+.download {
+    border: 0 solid rgb(214, 214, 214);
+    padding: 5px 40px;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.hyperlink {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.hyperlink a {
+    font-size: 11px;
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer span {
+    justify-content: center;
+    font-size: 11px;
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+    margin: 0px 10px;
+}
